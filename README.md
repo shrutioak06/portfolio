@@ -23,24 +23,15 @@ This portfolio is a compilation of all the Data Science, Machine Learning, and C
 This project analyzes trends in global airplane crash fatalities and crash counts from 1970 to 2025 using a Kaggle dataset of 56 yearly observations. Using R (dplyr, ggplot2, tidyr), I examined two research questions: how crash-related fatalities have changed over time, and whether years with more crashes correlate with higher death tolls. A dual-axis line chart revealed a steady decline in fatalities despite relatively stable crash counts — evidence of improved aviation safety standards. A scatter plot with a linear regression overlay confirmed a general positive correlation between crashes and deaths, while highlighting outliers likely caused by large commercial disasters. [[View Full Report]](https://shrutioak06.github.io/Portfolio/ShrutiOak_FinalProject.html)
 
 #
-
-<img align="left" width="250" height="150" src="Images/bias_audit.jpg">&nbsp;&nbsp;&nbsp; **[Auditing Algorithmic Bias in Classification Models](https://github.com/shrutioak06/algorithmic-bias-audit)**
-
-In this project I conduct an empirical audit of binary classification models to examine how standard training pipelines encode demographic disparities, even when protected attributes are withheld. I apply fairness toolkits including Fairlearn and AIF360 to compare disparate impact, equalized odds, and calibration metrics across model families, and evaluate mitigation strategies such as re-weighting and post-processing threshold adjustment.
-
-#
-
 ---
 
 ## Micro Projects
 
 - ### Statistics and Machine Learning
   - [ML Overfitting & Regularization Study](https://github.com/shrutioak06/ml-overfitting-study) : Empirical comparison of L1/L2 regularization, dropout, and cross-validation strategies across varying dataset sizes. Python, scikit-learn.
-  - [Algorithmic Bias Literature Review](https://github.com/shrutioak06/bias-lit-review) : Annotated bibliography and synthesis of 30+ fairness-in-ML papers covering disparate impact, causal fairness, and auditing methodologies, compiled for DACSS seminar.
 
 - ### Professional & Applied Work
   - [LangChain Financial Chatbot](https://github.com/shrutioak06/langchain-chatbot) : Production AI assistant with LangChain-based plugins for internal financial workflows at State Street. Python, LangChain, Snowflake.
-  - [Fund-of-Funds Checks Framework](https://github.com/shrutioak06/fof-checks-framework) : SQL and Python-based data validation pipeline using Snowflake for automated financial data quality checks.
 
 ---
 
